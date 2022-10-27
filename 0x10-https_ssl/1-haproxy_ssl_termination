@@ -34,7 +34,7 @@ defaults
 	errorfile 504 /etc/haproxy/errors/504.http
 
 #--zewdu-alx.tech-params-begin--
-frontend zewdu-alx.tech-http-frontend
+frontend b3zaleel-alx.tech-http-frontend
 	bind *:80
 	http-request set-header X-Forwarded-Proto http
 	default_backend b3zaleel-alx.tech-backend
